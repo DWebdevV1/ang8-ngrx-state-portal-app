@@ -1,0 +1,50 @@
+.navbar {
+  background-color: red !important;
+  height: 80px !important;
+  max-height: 80px !important;
+  min-height: 80px !important;
+
+  .left-element {
+    display: flex;
+    flex: 1;
+    visibility: hidden;
+  }
+
+  .center-element {
+    display: flex;
+  }
+
+  .right-element {
+    display: flex;
+    flex: 1;
+  }
+
+  .center-brand {
+    margin: auto !important;
+  }
+
+  .navbar-brand {
+    color: white !important;
+    padding: 0.5rem !important;
+    font-size: 1.75rem !important;
+    font-weight: bold;
+  }
+
+  .navbar-brand:hover {
+    color: black !important;
+  }
+
+  li a {
+    font-size: 1.15rem !important;
+    padding: 1rem !important;
+    margin: 0.75rem 0.5rem !important;
+    color: white !important;
+    border-top: 1px solid transparent !important;
+    border-bottom: 1px solid transparent !important;
+  }
+
+  li a:hover {
+    border-top: 1px solid white !important;
+    border-bottom: 1px solid white !important;
+  }
+}

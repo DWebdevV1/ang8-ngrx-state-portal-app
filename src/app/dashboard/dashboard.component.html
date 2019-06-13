@@ -1,0 +1,18 @@
+<div class="jumbotron m-auto p-5">
+
+  <h2 class="display-4 text-left">Dashboard</h2>
+  <p>Dashboard Works!</p>
+
+  <p>
+    Latest User:
+    <span *ngIf="latestUser.userID">
+      <strong>
+      {{ latestUser?.userID }},
+      {{ latestUser?.lastName }},
+      {{ latestUser?.firstName }}
+    </strong>
+    </span>
+  </p>
+
+</div>
+
